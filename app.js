@@ -18,7 +18,7 @@ app.listen(appPort, function(){
 mongoose.connect(`mongodb://localhost:${dbPort}/${dbName}`, {useMongoClient: true});
 
 //Configure view rendering
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'public/views'));
 app.set('view engine', 'hbs');
 
 //Configure app
