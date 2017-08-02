@@ -8,7 +8,7 @@ Simple skeleton application to quickly get developers up and running with the ME
 
 Once both are running, you should not have to touch them unless there is a fatal error.
 
-You may need to install supervisor globally: `sudo npm install -g supervisor`
+You may need to install supervisor globally: `npm install -g supervisor`; if there are permission issues, use `sudo`.
 
 ## Included packages
 - Everything required for Angular Material
