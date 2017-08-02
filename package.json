@@ -1,5 +1,5 @@
 {
-	"name": "MEAN Skeleton Application",
+	"name": "mean-skeleton",
 	"version": "0.1.0",
 	"description": "Skeleton application to quickly get up and running with the MEAN stack. Includes angular material, supervisor & webpack integration",
 	"main": "app.js",
