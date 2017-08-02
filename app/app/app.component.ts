@@ -3,6 +3,6 @@ import { Component } from '@angular/core';
 @Component({
 	selector: 'sequoia',
 	styles: [``],
-	template: ``
+	templateUrl: './app.component.html'
 })
 export class AppComponent {}
