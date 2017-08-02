@@ -9,9 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule, MdButtonModule, MdToolbarModule } from '@angular/material'; //Add additional modules here
 
+import { HomeComponent } from './../home/home.component';
+
 @NgModule({
 	bootstrap: [AppComponent],
-	declarations: [AppComponent],
+	declarations: [
+		AppComponent,
+		HomeComponent
+	],
 	imports: [
 		BrowserModule,
 		HttpModule,
