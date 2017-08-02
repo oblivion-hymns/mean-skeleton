@@ -1,16 +1,17 @@
 # MEAN Skeleton Application
 Simple skeleton application to quickly get developers up and running with the MEAN stack.
 
-## Instructions
+## Prep
 - `npm install` to install dependencies
+- `sudo npm install -g supervisor` to install supervisor globally
+
+## Instructions
 - `npm start` to start the server
 - `npm run build` to watch client-side files for changes
 
 Once both are running, you should not have to touch them unless there is a fatal error.
 
-You may need to install supervisor globally: `npm install -g supervisor`; if there are permission issues, use `sudo`.
-
 ## Included packages
-- Everything required for Angular Material
+- Angular Material & all associated packages
 - Supervisor (so you don't have to restart the server when you change files)
 - Webpack
