@@ -24,6 +24,5 @@ import { MaterialModule, MdButtonModule, MdToolbarModule } from '@angular/materi
 		routing
 	],
 	providers: [],
-
 })
 export class AppModule {}
