@@ -1,5 +1,5 @@
 {
-	"name": "MEAN Skeleton Application",
+	"name": "mean-skeleton",
 	"version": "0.1.0",
 	"description": "Skeleton application to quickly get up and running with the MEAN stack. Includes angular material, supervisor & webpack integration",
 	"main": "app.js",
@@ -33,8 +33,6 @@
 		"body-parser": "^1.17.2",
 		"core-js": "^2.4.1",
 		"express": "^4.15.3",
-		"extend": "^3.0.1",
-		"extract-text-webpack-plugin": "^3.0.0",
 		"fs": "0.0.1-security",
 		"hammerjs": "^2.0.8",
 		"hbs": "^4.0.1",
@@ -53,10 +51,6 @@
 		"webpack-dev-server": "^2.6.1",
 		"webpack-merge": "^4.1.0",
 		"zone.js": "^0.8.16"
-	},
-	"apidoc": {
-		"title": "Sequoia API",
-		"version": "0.1.0"
 	},
 	"devDependencies": {
 		"eslint": "^4.2.0"
